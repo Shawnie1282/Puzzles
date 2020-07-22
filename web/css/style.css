@@ -1,0 +1,28 @@
+.top-header {
+	color: #A9A9A9;
+	background-color: #292929;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.top-title {
+	display: inline-block; 
+	margin-left: 10px; 
+	margin-right: 25px;
+}
+
+.body-content {
+	display: block;
+	position: relative;
+}
+
+.body-content #accordion {
+	margin-top: 10px;
+}
+
+.game-link {
+	display: block;
+	text-align: center;
+}
