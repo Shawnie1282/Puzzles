@@ -1,0 +1,2 @@
+# Puzzles
+Collection of Puzzles!
