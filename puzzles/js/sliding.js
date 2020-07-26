@@ -17,7 +17,7 @@ let win = false;
 function init() {
 	img = new Image();
 	img.addEventListener('load', onImage, false);
-	img.src = '/puzzles/images/default.png';
+	img.src = '/Puzzles/puzzles/images/default.png';
 }
 
 function onImage() {
