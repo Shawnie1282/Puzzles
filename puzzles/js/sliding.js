@@ -182,5 +182,3 @@ function drawFull() {
 
 $(".show-button").mousedown(drawFull);
 $(document).mouseup(draw);
-$(".show-button").touchstart(drawFull);
-$(document).touchend(draw);
