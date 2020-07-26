@@ -1,58 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Puzzles</title>
 
-    <link href="web/css/bootstrap.min.css" rel="stylesheet">
-    <link href="web/css/style.css" rel="stylesheet">
-  </head>
-  <body onload="updateQuote()">
-	<div class="top-header">
-		<h1 class="top-title">Puzzles</h1>
-		<i class="quote"></i>
-	</div>
-	<div class="body-content">
-		<div id="accordion">
-		  <div class="card">
-			<div class="card-header" id="headingOne">
-			  <h5 class="mb-0">
-				<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-				  Sliding Puzzle
-				</button>
-			  </h5>
-			</div>
+    <link href="/web/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/web/css/style.css" rel="stylesheet">
+</head>
+<body onload="updateQuote()">
+    <div class="top-header">
+        <h1 class="top-title"><a href="/" class="no-highlight">Puzzles</a></h1>
+        <i class="quote"></i>
+    </div>
 
-			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-			  <div class="card-body">
-				<p style="margin-left:10px;">A sliding puzzle is in the genre of "combination puzzles". This puzzle breaks an image into tiles and randomizes their placements. The goal is to shift the tiles in the cardinal directions (up, down, left, and right) until the original image is formed.</p>
-				<a class="game-link" href="puzzles/sliding.html">Play Now!</a>
-			  </div>
-			</div>
-		  </div>
-		  
-		  <div class="card">
-			<div class="card-header" id="headingOne">
-			  <h5 class="mb-0">
-				<button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-				  Crossword
-				</button>
-			  </h5>
-			</div>
+    <div class="body-content">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Sliding Puzzle
+                        </button>
+                    </h5>
+                </div>
 
-			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-			  <div class="card-body">
-				<p style="margin-left:10px;">W.I.P</p>
-				<a class="game-link" href="puzzles/crossword.html">Play Now!</a>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	</div>
-	
-	<script src="web/js/quotes.js"></script>
-    <script src="web/js/jquery.min.js"></script>
-	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-    <script src="web/js/bootstrap.min.js"></script>
-    <script src="web/js/scripts.js"></script>
-  </body>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p style="margin-left:10px;">A sliding puzzle is in the genre of "combination puzzles". This puzzle breaks an image into tiles and randomizes their placements. The goal is to shift the tiles in the cardinal directions (up, down, left, and right) until the original image is formed.</p>
+                        <a class="game-link" href="puzzles/sliding.html">Play Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Crossword
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <p style="margin-left:10px;">W.I.P</p>
+                        <a class="game-link" href="puzzles/crossword.html">Play Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/web/js/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="/web/js/bootstrap.min.js"></script>
+    <script src="/web/js/quotes.js"></script>
+</body>
 </html>
