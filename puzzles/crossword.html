@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puzzles</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/Puzzles/favicon.ico">
+    <link href="/Puzzles/web/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Puzzles/web/css/style.css" rel="stylesheet">
+</head>
+<body onload="updateQuote(); init();">
+    <div class="top-header">
+        <h1 class="top-title"><a href="/Puzzles/" class="no-highlight">Puzzles</a></h1>
+        <i class="quote"></i>
+    </div>
+
+    <div>
+        <div>
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+
+    <script src="/Puzzles/web/js/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="/Puzzles/web/js/bootstrap.min.js"></script>
+    <script src="/Puzzles/web/js/quotes.js"></script>
+    <script src="/Puzzles/puzzles/js/crossword.js"></script>
+</body>
+</html>
