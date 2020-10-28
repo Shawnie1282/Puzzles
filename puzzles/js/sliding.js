@@ -5,7 +5,7 @@ let holeIndex;
 let canClick = false;
 let movingPiece;
 let pieces;
-let puzzleDifficulty = 4;
+let puzzleDifficulty = 5;
 let puzzleWidth;
 let puzzleHeight;
 let pieceWidth;
